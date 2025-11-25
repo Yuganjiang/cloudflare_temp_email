@@ -9,10 +9,10 @@ compatibility_flags = [ "nodejs_compat" ]
 # ]
 
 # 如果你想要部署带有前端资源的 worker, 你需要添加 assets 配置
-#[assets]
-#directory = "../frontend/dist/"
-#binding = "ASSETS"
-#run_worker_first = true
+[assets]
+directory = "../frontend/dist/"
+binding = "ASSETS"
+run_worker_first = true
 
 # 如果你想要使用定时任务清理邮件，取消下面的注释，并修改 cron 表达式
 # [triggers]
